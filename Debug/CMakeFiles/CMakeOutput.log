@@ -1,0 +1,188 @@
+The system is: Linux - 4.19.27-gentoo-r1 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/limon/project/c/hello/Debug/CMakeFiles/3.9.6/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_44448/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_44448.dir/build.make CMakeFiles/cmTC_44448.dir/build
+gmake[1]: Entering directory '/home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44448.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_44448.dir/testCCompiler.c.o   -c /home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_44448
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44448.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_44448.dir/testCCompiler.c.o  -o cmTC_44448 
+gmake[1]: Leaving directory '/home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_711c5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_711c5.dir/build.make CMakeFiles/cmTC_711c5.dir/build
+gmake[1]: Entering directory '/home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_711c5.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_711c5.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_711c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_711c5.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_711c5.dir/CMakeCCompilerABI.c.o  -o cmTC_711c5 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /var/tmp/portage/sys-devel/gcc-8.2.0-r6/work/gcc-8.2.0/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/8.2.0 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include/g++-v8 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --disable-nls --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 8.2.0-r6 p1.7' --disable-esp --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-altivec --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libmudflap --disable-libssp --disable-libmpx --disable-systemtap --enable-vtable-verify --enable-lto --without-isl --enable-default-pie --enable-default-ssp
+Thread model: posix
+gcc version 8.2.0 (Gentoo 8.2.0-r6 p1.7) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_711c5' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccneas7P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_711c5 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_711c5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_711c5' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_711c5/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_711c5.dir/build.make CMakeFiles/cmTC_711c5.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_711c5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_711c5.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_711c5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_711c5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_711c5.dir/CMakeCCompilerABI.c.o  -o cmTC_711c5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /var/tmp/portage/sys-devel/gcc-8.2.0-r6/work/gcc-8.2.0/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/8.2.0 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include/g++-v8 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --disable-nls --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 8.2.0-r6 p1.7' --disable-esp --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-altivec --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libmudflap --disable-libssp --disable-libmpx --disable-systemtap --enable-vtable-verify --enable-lto --without-isl --enable-default-pie --enable-default-ssp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (Gentoo 8.2.0-r6 p1.7) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_711c5' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccneas7P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_711c5 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_711c5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccneas7P.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_711c5] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..]
+    arg [CMakeFiles/cmTC_711c5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.0;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_60ebf/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_60ebf.dir/build.make CMakeFiles/cmTC_60ebf.dir/build
+gmake[1]: Entering directory '/home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60ebf.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_60ebf.dir/feature_tests.c.o   -c /home/limon/project/c/hello/Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_60ebf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60ebf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_60ebf.dir/feature_tests.c.o  -o cmTC_60ebf 
+gmake[1]: Leaving directory '/home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_60f76/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_60f76.dir/build.make CMakeFiles/cmTC_60f76.dir/build
+gmake[1]: Entering directory '/home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60f76.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_60f76.dir/feature_tests.c.o   -c /home/limon/project/c/hello/Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_60f76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60f76.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_60f76.dir/feature_tests.c.o  -o cmTC_60f76 
+gmake[1]: Leaving directory '/home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4126c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4126c.dir/build.make CMakeFiles/cmTC_4126c.dir/build
+gmake[1]: Entering directory '/home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4126c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_4126c.dir/feature_tests.c.o   -c /home/limon/project/c/hello/Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4126c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4126c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4126c.dir/feature_tests.c.o  -o cmTC_4126c 
+gmake[1]: Leaving directory '/home/limon/project/c/hello/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
